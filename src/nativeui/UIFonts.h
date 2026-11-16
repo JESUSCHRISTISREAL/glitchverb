@@ -2,7 +2,6 @@
 
 #include "JuceHeader.h"
 #include "BinaryData.h"
-#include "UIColours.h"
 
 namespace UIFonts
 {
@@ -13,26 +12,21 @@ namespace UIFonts
 		return typeface;
 	}
 
-	struct Style
+	// the plugin name
+	inline juce::Font name(float size)
 	{
-		juce::Font font;
-		juce::Justification justification;
-		juce::BorderSize<int> border;
-		juce::Colour colour;
-	};
-
-	inline Style header()
-	{
-		return { juce::Font(juce::FontOptions(30.0f).withTypeface(getTypeface())), juce::Justification::centredRight, juce::BorderSize<int>(0, 0, 0, 0), UIColours::accentText };
+		return juce::Font(juce::FontOptions(size).withTypeface(getTypeface()));
 	}
 
-	inline Style parameter()
+	// printed panel labels
+	inline juce::Font label(float size)
 	{
-		return { juce::Font(juce::FontOptions(18.0f).withTypeface(getTypeface())), juce::Justification::bottomLeft, juce::BorderSize<int>(0, 0, 3, 0), UIColours::mainText };
+		return juce::Font(juce::FontOptions(size).withStyle("Bold")).withExtraKerningFactor(0.06f);
 	}
 
-	inline Style sliderValue()
+	// readouts and scope text
+	inline juce::Font mono(float size)
 	{
-		return { juce::Font(juce::FontOptions(15.0f).withTypeface(getTypeface())), juce::Justification::centred, juce::BorderSize<int>(1, 5, 1, 5), UIColours::accentText };
+		return juce::Font(juce::FontOptions(juce::Font::getDefaultMonospacedFontName(), size, juce::Font::plain));
 	}
 }

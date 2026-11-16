@@ -38,7 +38,7 @@ set(PLUGIN_PARAM_DEFAULT_NOTIFY ON CACHE BOOL "Should parameter changes from ins
 #   DEFAULT  — the generic editor provided by RNBO::JuceAudioProcessor
 #   NATIVE   — native JUCE controls (src/CustomAudioEditor)
 #   WEBVIEW  — WebBrowserComponent UI (src/WebBrowserAudioEditor)
-set(RNBO_EDITOR_MODE "DEFAULT" CACHE STRING "UI editor: DEFAULT (Generic JUCE controls), NATIVE (Custom JUCE controls), WEBVIEW (WebBrowserComponent)")
+set(RNBO_EDITOR_MODE "NATIVE" CACHE STRING "UI editor: DEFAULT (Generic JUCE controls), NATIVE (Custom JUCE controls), WEBVIEW (WebBrowserComponent)")
 set_property(CACHE RNBO_EDITOR_MODE PROPERTY STRINGS DEFAULT NATIVE WEBVIEW)
 
 # Default path for the custom native UI

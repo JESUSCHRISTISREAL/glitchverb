@@ -896,7 +896,7 @@
 										"changesPatcherIO" : 0
 									}
 ,
-									"text" : "param dry_wet 1 @min 0 @max 1",
+									"text" : "param dry_wet 0.5 @min 0 @max 1",
 									"varname" : "dry_wet"
 								}
 
@@ -12250,7 +12250,7 @@
 							}
 ,
 							"dry_wet" : 							{
-								"value" : 1.0
+								"value" : 0.5
 							}
 ,
 							"__presetid" : "4561593f-cda6-11f1-993f-7085c2f92dc8",
@@ -12277,7 +12277,7 @@
 										}
 ,
 										"dry_wet" : 										{
-											"value" : 1.0
+											"value" : 0.5
 										}
 ,
 										"__presetid" : "4561593f-cda6-11f1-993f-7085c2f92dc8",
@@ -12383,6 +12383,32 @@
 										"filepath" : "D:/Documents/Max 8/Snapshots",
 										"filepos" : -1,
 										"snapshotfileid" : "5fd40883fecae22c9d16a1b29243dacb"
+									}
+
+								}
+, 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "BOUNCYVERB [SFOG7]",
+									"origin" : "4561593f-cda6-11f1-993f-7085c2f92dc8",
+									"type" : "rnbo",
+									"subtype" : "",
+									"embed" : 1,
+									"snapshot" : 									{
+										"decay" : 										{
+											"value" : 0.43
+										}
+,
+										"dry_wet" : 										{
+											"value" : 0.34
+										}
+,
+										"__presetid" : "4561593f-cda6-11f1-993f-7085c2f92dc8",
+										"clock_speed" : 										{
+											"value" : 0.9476
+										}
+
 									}
 
 								}

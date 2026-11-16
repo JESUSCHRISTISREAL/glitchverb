@@ -33,14 +33,19 @@ juce_add_plugin(RNBOAudioPlugin
   EDITOR_WANTS_KEYBOARD_FOCUS FALSE    # Does the editor need keyboard focus?
   COPY_PLUGIN_AFTER_BUILD FALSE        # Should the plugin be installed to a default location after building?
   PLUGIN_MANUFACTURER_CODE "JPHi"      # A four-character manufacturer id with at least one upper-case character
-  PLUGIN_CODE "JHGV"                   # A unique four-character plugin id with at least one upper-case character
+  PLUGIN_CODE "JHGS"                   # A unique four-character plugin id with at least one upper-case character
   FORMATS ${PLUGIN_FORMATS}            # The formats to build. Other valid formats are: AAX Unity VST AU AUv3
-  PRODUCT_NAME "Glitch Verb"           # The name of the final executable, which can differ from the target name
+  PRODUCT_NAME "Glitch Verb SFOG7"     # The name of the final executable, which can differ from the target name
   ${_needs_web_browser})
 
 juce_add_binary_data(BinaryData
      SOURCES
-         resources/MajorMonoDisplayRegular.ttf)
+         resources/MajorMonoDisplayRegular.ttf
+         resources/faceplate.png
+         resources/glass.png
+         resources/meter_lit.png
+         resources/knobs.png
+         resources/encoder.png)
 
 # `juce_generate_juce_header` will create a JuceHeader.h for a given target, which will be generated
 # into your build tree. This should be included with `#include <JuceHeader.h>`. The include path for

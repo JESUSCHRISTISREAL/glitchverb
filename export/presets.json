@@ -9,7 +9,7 @@
         "value": 0.7000000000000001
       },
       "dry_wet": {
-        "value": 1
+        "value": 0.5
       }
     }
   },
@@ -23,7 +23,7 @@
         "value": 1
       },
       "dry_wet": {
-        "value": 1
+        "value": 0.5
       }
     }
   },
@@ -37,7 +37,7 @@
         "value": 0.3
       },
       "dry_wet": {
-        "value": 1
+        "value": 0.5
       }
     }
   },
@@ -51,7 +51,7 @@
         "value": 0.5
       },
       "dry_wet": {
-        "value": 1
+        "value": 0.5
       }
     }
   },
@@ -65,7 +65,7 @@
         "value": 0.9
       },
       "dry_wet": {
-        "value": 1
+        "value": 0.5
       }
     }
   },
@@ -79,7 +79,21 @@
         "value": 0
       },
       "dry_wet": {
-        "value": 1
+        "value": 0.5
+      }
+    }
+  },
+  {
+    "name": "BOUNCYVERB [SFOG7]",
+    "preset": {
+      "clock_speed": {
+        "value": 0.9476
+      },
+      "decay": {
+        "value": 0.43
+      },
+      "dry_wet": {
+        "value": 0.34
       }
     }
   }

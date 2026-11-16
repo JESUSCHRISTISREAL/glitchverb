@@ -920,7 +920,7 @@ void getParameterInfo(ParameterIndex index, ParameterInfo * info) const {
         case 0:
             {
             info->type = ParameterTypeNumber;
-            info->initialValue = 1;
+            info->initialValue = 0.5;
             info->min = 0;
             info->max = 1;
             info->exponent = 1;
@@ -6324,7 +6324,7 @@ void assign_defaults()
     expr_02_out1 = 0;
     linetilde_01_time = 20;
     linetilde_01_keepramp = true;
-    param_01_value = 1;
+    param_01_value = 0.5;
     param_02_value = 0.6;
     param_03_value = 0.7;
     linetilde_02_time = 20;

@@ -9,7 +9,7 @@
       "maximum": 1,
       "exponent": 1,
       "steps": 0,
-      "initialValue": 1,
+      "initialValue": 0.5,
       "isEnum": false,
       "enumValues": [],
       "displayName": "",
